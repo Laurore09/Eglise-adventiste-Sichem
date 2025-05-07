@@ -1,0 +1,15 @@
+// data/config.json
+{
+    "horaires": [
+        {
+            "titre": "Culte du Samedi",
+            "jour": "Samedi",
+            "heures": "7h30 - 12h00",
+            "description": "Culte principal avec prédication et louange"
+        }
+    ],
+    "photos": [
+        {"src": "/images/img3.jpg", "alt": "Photo 1"},
+        {"src": "/images/img4.jpg", "alt": "Photo 2"}
+    ]
+}

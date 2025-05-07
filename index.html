@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel de Eglise Adventiste SICHEM - Communauté chrétienne vivante">
+    <meta name="keywords" content="église, chrétien, prière, culte, communauté">
+    <meta name="robots" content="index, follow">
+    <title>Eglise Adventiste Sichem - Accueil</title>
+   
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <script src="script.js">  </script>
+</head>
+<link rel="stylesheet" href="script.js">
+<script src="script.js"></script>
+<body>
+    <header class="header">
+        <div class="header-container">
+             <img src="./IMAGES/Sans titre (18).png" alt="Logo Eglise Adventiste SICHEM" class="logo">
+            
+            <h2 class="eglise">Eglise Adventiste SICHEM</h2>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#horaires" class="nav-link">Horaires</a></li>
+                    <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="theme-toggle">
+                <button id="themeSwitcher" aria-label="Toggle theme">
+                    <span class="icon">🌓</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bienvenue a Sichem </h1>
+                <p>Une communauté adventiste de foi, d'espérance et d'amour</p>
+                <a href="#horaires" class="btn">Voir les horaires</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>À propos de notre église</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>[Description détaillée de l'église, son histoire, sa mission, ses valeurs...]</p>
+                    <p>Fondée en [année], notre église s'engage à [décrire l'engagement principal].</p>
+                </div>
+                <div class="about-image">
+                    <img src="./IMAGES/img 5.jpg" alt="Photo extérieure de l'église" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="horaires" class="section">
+            <h2>Horaires des services</h2>
+            <div class="schedule">
+                <div class="schedule-card">
+                    <h3>Culte du Samedi</h3>
+                    <p>Samedi: 7h30 - 12h00</p>
+                    <p>Culte principal avec prédication et louange</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Reunion de Priere</h3>
+                    <p>Mercredi: 5h30 - 7h00</p>
+                    <p>Étude en profondeur de la Parole de Dieu</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Ouverture du Sabbat</h3>
+                    <p>Vendredi: 18h30 - 19h30</p>
+                    <p>Ouverture du saint Sabbat</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Galerie photo</h2>
+            <div class="gallery-grid">
+                
+            <img src="./IMAGES/img 4.jpg" class="img1" alt="IMG1"> 
+        <img src="./IMAGES/img 6.jpg" class="img1" alt="IMG2">
+                <img src="./IMAGES/img 5.jpg" class="img1" alt="IMG3"> 
+                <img src="./IMAGES/img 3.jpg" class="img1" alt="IMG4"> 
+                <img src="./IMAGES/img 6.jpg" class="img1" alt="IMG5"> 
+                <img src="./IMAGES/img 3.jpg" class="img1" alt="img1">
+                <!-- Les images seront chargées dynamiquement via JavaScript -->
+            </div>
+            <button id="loadMore" class="btn">Voir plus de photos</button>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contactez-nous</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        
+        <div class="footer-container">
+            <div class="footer-section1">
+                
+                <img src="./IMAGES/Sans titre (18).png" alt="Logo [Nom de l'Église]" class="footer-logo">
+                <p>Eglise Adventiste Sichem</p>
+                <p>22, Rue Catalpa 28,Delmas 75</p>
+                <p>Téléphone: +509 4610 8641</p>
+            <a  href="">
+                <p >Email:egliseadventistesichem75@gmail.com</p>
+            </a>
+            </div>
+            
+            <div class="footer-section2">
+                <h3>Liens rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#horaires">Horaires</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section3">
+                <h3>Réseaux sociaux</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1BPrvs3ADJ/?mibextid=wwXIfr" aria-label="Facebook"><span class="social-icons"><img src="./IMAGES/facebook_5968764.png" alt="Facebook"></span></a>
+                    <a href="https://www.instagram.com/egliseadventistesichem?igsh=YXl2MDRubHplazg5" aria-label="Instagram"><span class="social-icons"><img src="./IMAGES/instagram_2111463.png" alt="Instagram"></span></a>
+                    <a href="https://youtube.com/@egliseadventistesichemdedelmas?si=3lDT840Tu2lc20yf" aria-label="YouTube"><span class="social-icons"><img src="./IMAGES/youtube_3938037.png" alt="YouTube"></span></a>
+                </div>
+                
+            </div>
+            <p class="copyright">&copy; 2025 Eglise Adventiste Sichem . Tous droits réservés.</p>  
+        </div>
+    </footer>
+
+    <script src="/js/script.js" type="module"></script>
+</body>
+</html>
